@@ -1,7 +1,7 @@
-import React, { FC } from "react";
+import LoginForm from "@/components/auth/login-form";
 
-interface pageProps {}
-
-export const page: FC<pageProps> = ({}) => {
-  return <div>page</div>;
+const LoginPage = () => {
+  return <LoginForm />;
 };
+
+export default LoginPage;
